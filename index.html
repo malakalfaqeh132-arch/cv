@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ملاك | بكالوريوس ذكاء اصطناعي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- الشريط الجانبي الهادئ -->
+    <aside class="sidebar">
+      <div class="profile-box">
+        <div class="avatar-circle">م</div>
+        <h1 class="name">ملاك</h1>
+        <p class="degree">بكالوريوس ذكاء اصطناعي</p>
+        <p class="tagline">أطوّر حلولاً ذكية تجمع بين الدقة التحليلية والأثر الإنساني الإيجابي.</p>
+      </div>
+
+      <div class="side-section">
+        <h2 class="side-title">نبذة مختصرة</h2>
+        <p class="side-text">
+          خريجة بكالوريوس الذكاء الاصطناعي شغوفة بتحويل البيانات المعقدة إلى نماذج عملية قابلة للتطبيق، مع اهتمام خاص بتجربة المستخدم وبناء أنظمة موثوقة وواضحة.
+        </p>
+      </div>
+
+      <div class="side-section">
+        <h2 class="side-title">مهارات الذكاء الاصطناعي</h2>
+        <ul class="skill-list">
+          <li class="skill-item" data-level="92">
+            <div class="skill-header">
+              <span>تعلّم الآلة (Machine Learning)</span>
+              <span class="skill-percent">92%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </li>
+          <li class="skill-item" data-level="88">
+            <div class="skill-header">
+              <span>التعلّم العميق والشبكات العصبية</span>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </li>
+          <li class="skill-item" data-level="85">
+            <div class="skill-header">
+              <span>معالجة اللغات الطبيعية (NLP)</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </li>
+          <li class="skill-item" data-level="84">
+            <div class="skill-header">
+              <span>تحليل وتنظيف البيانات</span>
+              <span class="skill-percent">84%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill"></div></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="side-section">
+        <h2 class="side-title">مهارات شخصية وعملية</h2>
+        <div class="tags-wrap">
+          <span class="tag">حل المشكلات المعقدة</span>
+          <span class="tag">التفكير التحليلي</span>
+          <span class="tag">العمل ضمن فريق</span>
+          <span class="tag">التعلم السريع</span>
+          <span class="tag">كتابة التقارير بوضوح</span>
+          <span class="tag">إدارة الوقت</span>
+        </div>
+      </div>
+
+      <div class="side-actions">
+        <button type="button" id="printBtn" class="btn btn-primary">طباعة أو حفظ PDF</button>
+        <button type="button" id="toggleQuoteBtn" class="btn btn-ghost">عبارة ملهمة جديدة</button>
+      </div>
+    </aside>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="main-content">
+      <blockquote class="quote-banner" id="quoteBanner">
+        «الذكاء الحقيقي في التقنية لا يُقاس بتعقيد الخوارزمية فقط، بل بقدرتها على خدمة الإنسان ببساطة ووضوح.»
+      </blockquote>
+
+      <section class="content-card">
+        <div class="section-heading-row">
+          <h2>المؤهل العلمي</h2>
+          <span class="badge">الأساس الأكاديمي</span>
+        </div>
+        <div class="timeline-item">
+          <div class="item-top">
+            <h3>بكالوريوس ذكاء اصطناعي</h3>
+            <span class="period">مرحلة الجامعية</span>
+          </div>
+          <p class="item-desc">
+            دراسة متكاملة لأساسيات الخوارزميات، الجبر الخطي والإحصاء، تعلّم الآلة، التعلّم العميق، ومعالجة البيانات، مع التركيز على بناء مشاريع تطبيقية تختبر الأداء والمنطق قبل التنفيذ.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading-row">
+          <h2>مشاريع ومبادرات تطبيقية</h2>
+          <span class="badge">تطبيق عملي</span>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="تصفية المشاريع">
+          <button type="button" class="filter-btn active" data-filter="all">الكل</button>
+          <button type="button" class="filter-btn" data-filter="ml">تعلّم الآلة</button>
+          <button type="button" class="filter-btn" data-filter="nlp">معالجة اللغات</button>
+          <button type="button" class="filter-btn" data-filter="data">البيانات</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="ml">
+            <h3>نموذج تصنيف وتنبؤ ذكي</h3>
+            <p>بناء وتدريب نموذج تصنيف وتقييم دقته عبر مقاييس واضحة لتقليل الأخطاء وتحسين جودة القرار.</p>
+            <div class="project-tags">
+              <span>تعلّم الآلة</span>
+              <span>تقييم النماذج</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="nlp">
+            <h3>مساعد نصي لفهم وتلخيص المحتوى</h3>
+            <p>تطوير مسار عمل لمعالجة النصوص العربية واستخلاص الأفكار الجوهرية بأسلوب منظم وسهل القراءة.</p>
+            <div class="project-tags">
+              <span>NLP</span>
+              <span>تحليل النصوص</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="data">
+            <h3>لوحة قراءة واستكشاف البيانات</h3>
+            <p>تنظيف مجموعات بيانات خام وتحويلها إلى مؤشرات بصرية هادئة تساعد على اكتشاف الأنماط بسرعة.</p>
+            <div class="project-tags">
+              <span>البيانات</span>
+              <span>تصوّر البيانات</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <div class="section-heading-row">
+          <h2>فلسفتي في العمل والتعلّم</h2>
+          <span class="badge">قيم مهنية</span>
+        </div>
+        <ul class="values-list">
+          <li><strong>الوضوح قبل التعقيد:</strong> أفضّل الحلول المفهومة التي يسهل شرحها وصيانتها وتطويرها على المدى الطويل.</li>
+          <li><strong>الاستماع الدقيق:</strong> فهم المشكلة الحقيقية خطوة تسبق اختيار الأداة أو الخوارزمية.</li>
+          <li><strong>التطوير المستمر:</strong> مجال الذكاء الاصطناعي يتجدد يومياً، والهدوء والمنهجية هما ما يصنعان تقدماً ثابتاً.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
